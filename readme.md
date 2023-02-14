@@ -1,5 +1,7 @@
 一个玩具版本的gpt2 rlhf项目，传说中chatgpt的优化方式，核心代码大概500行
 
+动机来自于 https://github.com/karpathy/nanoGPT，主要为了验证一些instructGPT论文中的核心特性（reward函数的泛化性，ppo的收敛性，reward policy和reference policy的权衡）
+
 主要依赖
 
 >pytorch>=1.14.0\
